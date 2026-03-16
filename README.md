@@ -2,7 +2,7 @@
 
 > Production-grade credit card data pipeline — Fiserv API → AWS → Snowflake → dbt → Dashboards
 
-Built from patterns used at **SoFi** to process **100M+ daily transactions** for 1M+ active cardholders with **99.9% SLA** and **$140K annual cost savings**.
+Built from patterns used in production fintech to process **100M+ daily transactions** for 1M+ active cardholders with **99.9% SLA** and **$140K annual cost savings**.
 
 ---
 
@@ -167,7 +167,7 @@ airflow dags trigger fintech_credit_card_pipeline
 
 ## About
 
-Built by **Sneha Bankapalli** — Senior Data Engineer at SoFi.
+Built by **Sneha Bankapalli** — Senior Data Engineer at a fintech company.
 These patterns power real production pipelines processing 100M+ daily events.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sneha2095-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/sneha2095/)
