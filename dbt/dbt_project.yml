@@ -1,0 +1,26 @@
+name: fintech_pipeline
+version: "1.0.0"
+config-version: 2
+
+profile: fintech
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths:  ["tests"]
+
+models:
+  fintech_pipeline:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: incremental
+      +incremental_strategy: merge
+      +schema: intermediate
+    marts:
+      +materialized: incremental
+      +incremental_strategy: merge
+      +schema: marts
+      +cluster_by: ["EVENT_DATE"]      # Matches SoFi clustering pattern
+      +post-hook:
+        - "ALTER TABLE {{ this }} CLUSTER BY (EVENT_DATE)"
