@@ -165,6 +165,16 @@ airflow dags trigger fintech_credit_card_pipeline
 
 ---
 
+## 🛒 More Data Engineering Resources
+
+| Product | What You Get | Price |
+|---|---|---|
+| [Data Engineering Claude Code Starter Kit](https://snehabank.gumroad.com/l/aaugjh) | 9 Claude Code slash commands — dbt, Snowflake, pipelines | $19 |
+| [Snowflake Cost Optimization Playbook](https://snehabank.gumroad.com/l/kapqn) | 10 cost leaks + copy-paste SQL to detect and fix each one | $25 |
+| [Data Engineering Interview Kit](https://snehabank.gumroad.com/l/qjfgjf) | 50 SQL questions + 10 system designs + 4 cheat sheets | $15 |
+
+---
+
 ## About
 
 Built by **Sneha Bankapalli** — Senior Data Engineer at a fintech company.
